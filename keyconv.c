@@ -169,6 +169,7 @@ main(int argc, char **argv)
 					"RDD : Reddcoin : R\n"
 					"RIC : Riecoin : R\n"
 					"ROI : ROIcoin : R\n"
+					"ROGER : TheHolyRogerCoin : R\n"
 					"SCA : Scamcoin : S\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
@@ -195,6 +196,13 @@ main(int argc, char **argv)
 					return 1;
 			}
 			else
+			if (strcmp(optarg, "ROGER")== 0) {
+				fprintf(stderr,
+					"Decrypting ROGER Address\n");
+					addrtype_opt = 61;
+					privtype_opt = 176;
+					break;
+			}
 			if (strcmp(optarg, "PIVX")== 0) {
 				fprintf(stderr,
 					"Generating PIVX Address\n");

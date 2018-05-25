@@ -215,6 +215,7 @@ Current List of Available Coins for Address Generation
 |RDD | Reddcoin | R  |
 |RIC | Riecoin | R  |
 |ROI | ROIcoin | R  |
+|ROGER | TheHolyRogerCoin | R  |
 |SCA | Scamcoin | S  |
 |SDC | Shadowcoin | S  |
 |SKC | Skeincoin | S  |
