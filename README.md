@@ -227,7 +227,6 @@ Current List of Available Coins for Address Generation
 |UIS | Unitus | U  |
 |UNO | Unobtanium | u  |
 |VIA | Viacoin | V  |
-|VIPS | VIPSTARCOIN | V  |
 |VPN | Vpncoin | V  |
 |VTC | Vertcoin | V  |
 |WDC | Worldcoin Global | W  |
