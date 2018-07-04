@@ -532,6 +532,7 @@ main(int argc, char **argv)
 					"RIC : Riecoin : R\n"
 					"ROI : ROIcoin: R\n"
 					"RVN : Ravencoin : R\n"
+					"ROGER : TheHolyRogerCoin: R\n"
 					"SCA : Scamcoin : S\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
@@ -565,6 +566,14 @@ main(int argc, char **argv)
 					"Generating Actinium Address\n");
 					addrtype = 53;
 					privtype = 181;
+					break;
+			}
+			else
+			if (strcmp(optarg, "ROGER")== 0) {
+				fprintf(stderr,
+					"Generating ROGER Address\n");
+					addrtype = 61;
+					privtype = 176;
 					break;
 			}
 			else
